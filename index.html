@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CS5103</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+		<!-- Flip this bit for instant change on github.io: bit = 1 -->
+		
+		<!-- jquery -->				
+		<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="../excanvas.js"></script><![endif]-->
+		<script class="include" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		
+		<script language="javascript" type="text/javascript" src="dependencies/jquery/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript" src="dependencies/jquery/jquery.jqplot.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="dependencies/jquery/jquery.jqplot.css" />
+
+		<script language="javascript" type="text/javascript" src="dependencies/jquery/plugins/jqplot.pieRenderer.min.js"></script>
+						
+		<!-- End jquery -->	
+		
+	</head>
+
+	<body>
+
+		<div class = "container">
+			<div class="row">
+				<h3 class = "text-center">CS5103: Applied Machine Learning</h3>
+				<h4 class = "text-center">Jul-Dec, 2025</h4>
+				<img class="img-thumbnail center-block" src="images/iiserk_logo.png" width=120px height=120px />
+				</br>
+				
+				<!-- <p class = "text-center">Intelligent Systems and Interfaces<p> -->
+				
+<!-- 				DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>
+				INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI<br>
+				INDIA - 781039<br>
+				PHONE (OFF): +91 361 258 2374<br>
+				EMAIL: anand [dot] ashish [at] iitg.ernet.in</p> -->
+<!-- 				<div class="col-xs-8 col-xs-offset-2">
+					<a href="https://twitter.com/anand_ashish" target="_blank" class="pull-right btn btn-default btn-md"><i class="fa fa-twitter icon-color"></i></a>
+					<a href="https://in.linkedin.com/in/anandashish" target="_blank" class="pull-right btn btn-default btn-md"><i class="fa fa-linkedin"></i></a>					
+				</div> -->
+			</div>
+		</div>
+
+		<div class = "navbar navbar-default navbar-static-top">
+			<div class = "container">
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav">
+						<li class = "active"><a href = "index.html">Home</a></li>
+						<li><a href = "resources.html">Resources</a></li>
+<!-- 						<li><a href = "assignments.html">Assignments</a></li>
+						<li><a href = "courseproject.html">Course Project</a></li> -->
+						<!-- <li><a href = "gallery.html">Gallery</a></li> -->
+
+					</ul>
+				</div>
+			</div>
+		</div>
+					
+		<!-- main content goes here -->
+		<!-- everythin after the menu bar -->
+		<div class = "container" id="mainContent">
+
+			<!-- <div class="text-center">
+				<a class="btn btn-primary" href="#calendar">Calendar</a>
+				<a class="btn btn-primary" href="#latestNews">Latest News</a>
+			</div>
+			<br/> -->
+		
+		
+			<!-- Course Description -->
+			<!-- <div class = "row col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1"> -->
+			<div class = "row col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+			
+				
+<!-- 				<p>
+					<a href="announcements.html" class="btn btn-success btn-lg"> 
+						<span class="glyphicon glyphicon-hand-right"></span> Call for Internship
+					</a>
+				</p> -->
+				
+				<h3><u>Course Description</u></h3>
+				<p> In this course, we download various datasets and learn to apply machine learning algorithms on them. Postgraduates and senior undergraduates are the target audience of this course.
+				</p>
+
+				<!-- <p><b>NLP Topics -</b> Language Model, Sequence Tagging, PoS Tagging, NER, Vector Space Models, Distributional Semantics, Distributed Semantics/word embedding.</p> -->
+
+			<!-- Class Location and Time -->
+			<!-- <div class = "row col-xs-10 col-xs-offset-1"> -->
+			<h3><u>Class Location and Time</u> <span class="glyphicon glyphicon-calendar"></span> </h3>
+			<p><b>Location:</b> Room TBD <!--, CC Lab 1 for labs-->
+			<ul>
+				<!-- <li class="text-justify">Tuesday 5 - 6:25 PM</li> -->
+				<li class="text-justify"><b>Tuesday</b>&nbsp 10-11 AM</li>
+				<li class="text-justify"><b>Thursday</b>&nbsp 5-6 PM (+ Tutorial 6-7 PM)</li>
+				<li class="text-justify"><b>Friday</b>&nbsp 3-4 PM</li>
+				<!--<li class="text-justify"><b>Lab (Wednesday)</b>&nbsp 3 - 5:50 PM</li>-->
+			</ul>
+<!-- 			Link to Course Calendar <a href="#calendar"><font size=5><span title="Go to Course Calendar" class="glyphicon glyphicon-calendar"></span></font></a></p> -->
+			<!-- </div>	 -->
+
+			<h3><u>Course Instructor</u></h3>
+			<p><a href="https://sites.google.com/view/kripabandhughosh-homepage/home" target="_blank">Dr Kripabandhu Ghosh</a> (kripaghosh [AT] iiserkol.ac.in, CDS room 107)</p>
+			<p><a href="http://sap01.github.io/" target="_blank">Dr Saptarshi Pyne</a> (spyne [AT] iiserkol.ac.in, CDS room 101A)</p>
+						
+				
+				
+			</div>
+
+			<!-- image div -->
+			<div class = "row col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+				<!-- <a><img class="img-thumbnail center-block" src="images/semantic_graph_nvidia.png" /></a>-->
+				<!-- <a href="https://quotecatalog.com/" target="_blank"><img class="img-thumbnail center-block" src="images/alexa.png" /></a>	
+				-->
+			<figure>
+			<a><img class="img-thumbnail center-block" src="images/robo_thinker.jpg" alt="Course picture Upcoming..."/></a>
+			<figcaption>A Thinking Machine. Photo courtesy: <url>https://www.repsol.com/en/energy-and-the-future/technology-and-innovation/machine-learning/index.cshtml</url></figcaption>
+			</figure>
+			</div>
+
+<!-- 		
+			<div class = "row col-xs-10 col-xs-offset-1">
+			<h3><u>Class Location and Time</u> <a href="#calendar"><span title="Go to Course Calendar" class="glyphicon glyphicon-calendar">Calendar</span></a> </h3>
+			<p><b>Location:</b> Room 1201 (at Core 1, 2nd Floor)
+			<ul>
+				<li class="text-justify"><b>Wednesday</b>&nbsp 4 - 4:55 PM</li>
+				<li class="text-justify"><b>Thursday</b>&nbsp 3 - 3:55 PM</li>
+				<li class="text-justify"><b>Friday</b>&nbsp 2 - 2:55 PM</li>
+			</ul>
+			</div>
+
+
+			<div class = "row col-xs-10 col-xs-offset-1">
+			<h3><u>Course Instructor</u></h3>
+			<p><a href="http://iitg.ac.in/anand.ashish/" target="_blank">Dr. Ashish Anand</a></p>
+			</div>	 -->		
+
+			<!-- Teaching Assistants -->
+			<div class = "row col-xs-10 col-xs-offset-1">
+			<h3><u>Teaching Assistants</u></h3> <!-- <h4>(names in alphabetical order)</h4> -->
+			<p>
+			TBD
+			<!-- <a href="https://sites.google.com/iitj.ac.in/shubhamgupta" target="_blank">Shubham Gupta</a> (MP19CS003, gupta.37@iitj.ac.in, lab CS 217-B)</li>-->
+				<!-- <li class="text-justify"><a href="http://abhishek.ind.in/" target="_blank">Abhishek</a></li> -->				
+			</p>
+			</div>
+			
+			<!-- Grading Policy -->
+			<div class = "row col-xs-10 col-xs-offset-1">
+			<h3><u>Grading Policy (Tentative)</u></h3>
+			 
+<!-- 			<ul>
+				<li class="text-justify">Assignment #1: 5%</li>
+				<li class="text-justify">Assignment #2: 5%</li>
+				<li class="text-justify">Mid Semester: 20%</li>
+				<li class="text-justify">End Semester: 20%</li>
+				<li class="text-justify">Course Project: 50%</li>
+			</ul> -->
+			
+			<p>
+			<div id="chartdiv" style="margin-top:20px; margin-left:20px; width:460px; height:300px;"></div></p>
+			<script class="code" type="text/javascript">
+jQuery.jqplot('chartdiv', 
+    [[['MidSem', 2],['EndSem', 5],['ProgAssign1', 1.5],['ProgAssign2', 1.5]]], 
+    {
+      title: ' ', 
+      seriesDefaults: {
+        shadow: false, 
+        renderer: jQuery.jqplot.PieRenderer, 
+        rendererOptions: { 
+          sliceMargin: 4, 
+          showDataLabels: true 
+        } 
+      }, 
+      legend: { show:true, location: 'e' }
+    }
+  );
+				
+			</script>
+			
+  
+			
+			
+
+			</div>
+
+			<!-- Syllabus and Textbooks -->
+			<div class = "row col-xs-10 col-xs-offset-1">
+			<h3><u>Syllabus and References</u> <Span class="glyphicon glyphicon-book"></span></h3>
+			<p><a href="resources.html#syllabus_and_references" target="_blank">Please click here</a></p>
+			</div>			
+
+			<!-- Prerequisites -->
+			<div class = "row col-xs-10 col-xs-offset-1">
+			<h3><u>Prerequisite(s)</u></h3>
+			<p>
+			<ul>
+				<li class="text-justify">CS1101 'Introduction to Computer Programming' or any equivalent course</li>
+				<li class="text-justify">CS3102 'Programming in Python' or any equivalent course</li>
+			</ul>
+			</div>			
+
+			<!-- Antirequisites -->
+			<div class = "row col-xs-10 col-xs-offset-1">
+			<h3><u>Antirequisite(s)</u></h3>
+			<p>None
+			<!-- <ul>
+				<li class="text-justify">Probability and Statistics</li>
+				<li class="text-justify">Linear Algebra</li>
+				<li class="text-justify">Optimization</li>
+				<li class="text-justify">Computer Programming</li>
+			</ul> --></p>
+			</div>
+			
+		</div>               
+
+
+		<!-- footer section -->
+		<div class = "navbar navbar-default">
+			<div class = "container">
+				<p class = "navbar-text pull-left">&copy <a href="https://sap01.github.io/" target="_blank">Saptarshi Pyne</a></p>
+				<!--a href = "http://youtube.com/codersguide" class = "navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a-->
+			</div>
+		</div>
+     
+		<!-- script section -->
+		<!-- bootstrap and jquery scripts go here -->
+		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src = "js/bootstrap.js"></script>
+		
+
+		</body>
+</html>
